@@ -13,8 +13,12 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 
 mongoose
+    // .connect(
+    //     "mongodb+srv://kavyasusain:jwpxx271e4slWv2h@cluster0.xcrfbpi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    //     { useNewUrlParser: true, useUnifiedTopology: true }
+    // )
     .connect(
-        "mongodb+srv://kavyasusain:jwpxx271e4slWv2h@cluster0.xcrfbpi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+        "mongodb+srv://kaavyakavi1111_db_user:Bc4NLJiM5H53q5Qe@cluster0.zdgvmwo.mongodb.net/?appName=Cluster0",
         { useNewUrlParser: true, useUnifiedTopology: true }
     )
     .then(() => console.log('cloud connected'))
